@@ -7,6 +7,8 @@ gem 'rails', '3.2.12'
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'foreigner'
+gem 'devise'
 
 
 group :development do
