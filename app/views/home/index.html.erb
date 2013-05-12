@@ -1,5 +1,5 @@
 <% @ideas.each do |idea| %>
   <div>
-  	<p><%= image_tag idea.picture_url %></p>
+  	<p><%= image_tag(idea.picture_url, :class => "style_image") %></p>
   </div>
 <% end %>
