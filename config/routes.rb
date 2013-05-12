@@ -1,4 +1,6 @@
 RailsgirlsprojectsWorkshop::Application.routes.draw do
+  get "home/index"
+
   devise_for :users
 
   resources :comments
@@ -6,7 +8,7 @@ RailsgirlsprojectsWorkshop::Application.routes.draw do
 
   resources :ideas
 
-  root :to => redirect('/ideas')
+  root :to => "home#index"
 
 
   # The priority is based upon order of creation:
